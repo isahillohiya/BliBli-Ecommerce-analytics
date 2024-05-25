@@ -1,0 +1,11 @@
+sources:
+  - name: ft_mysql
+    database: FIVETRAN_DATABASE  
+    schema: MYSQL_1_LIVE  
+    tables:
+      - name: orders
+      - name: user
+      - name: seller
+      - name: product
+      - name: payment
+      - name: order_item
